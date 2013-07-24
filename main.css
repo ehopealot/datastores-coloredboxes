@@ -1,0 +1,40 @@
+html { height: 100%; }
+
+body { height: 100%; position: relative; }
+
+.color-boxes-container {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -130px;
+	margin-left: -300px;
+	height: 260px;
+	width: 600px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #000;
+}
+
+.color-boxes-container .color-boxes {
+	position: absolute;
+	list-style-type: none;
+	padding: 15px 0 0 0;
+	margin: 0;
+}
+
+.color-boxes-container .color-boxes li {
+	display: inline-block;
+	text-align: center;
+	margin: 0 0 0 13px;
+	padding: 0;
+}
+
+body .color-boxes-container .color-boxes li .color-box {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #767676;
+	width: 178px;
+	height: 178px;
+	display: block;
+	margin-bottom: 20px;
+}
